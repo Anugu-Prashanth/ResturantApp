@@ -11,9 +11,18 @@
 		AF73F7722A2C640300EB95A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF73F7712A2C640300EB95A8 /* ContentView.swift */; };
 		AF73F7742A2C640500EB95A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF73F7732A2C640500EB95A8 /* Assets.xcassets */; };
 		AF73F7782A2C640500EB95A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF73F7772A2C640500EB95A8 /* Preview Assets.xcassets */; };
-		AF73F7822A2C640500EB95A8 /* ResturantAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF73F7812A2C640500EB95A8 /* ResturantAppTests.swift */; };
 		AF73F78C2A2C640500EB95A8 /* ResturantAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF73F78B2A2C640500EB95A8 /* ResturantAppUITests.swift */; };
 		AF73F78E2A2C640500EB95A8 /* ResturantAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF73F78D2A2C640500EB95A8 /* ResturantAppUITestsLaunchTests.swift */; };
+		AF73F79F2A2C668400EB95A8 /* APIURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF73F79E2A2C668400EB95A8 /* APIURL.swift */; };
+		AF73F7A12A2C669700EB95A8 /* MealsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF73F7A02A2C669700EB95A8 /* MealsModel.swift */; };
+		AF73F7A32A2C66B200EB95A8 /* RestClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF73F7A22A2C66B200EB95A8 /* RestClientService.swift */; };
+		AF73F7A52A2C66F600EB95A8 /* MealsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF73F7A42A2C66F600EB95A8 /* MealsListViewModel.swift */; };
+		AF73F7A72A2C672700EB95A8 /* MealDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF73F7A62A2C672700EB95A8 /* MealDetailsViewModel.swift */; };
+		AF73F7A92A2C674A00EB95A8 /* MealDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF73F7A82A2C674A00EB95A8 /* MealDetailsView.swift */; };
+		AF73F7AB2A2C6E1C00EB95A8 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF73F7AA2A2C6E1B00EB95A8 /* BaseTest.swift */; };
+		AF73F7AF2A2C6E6C00EB95A8 /* RestClientServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF73F7AE2A2C6E6C00EB95A8 /* RestClientServiceTest.swift */; };
+		AF73F7B12A2C6F7200EB95A8 /* MealListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF73F7B02A2C6F7200EB95A8 /* MealListViewModelTest.swift */; };
+		AF73F7B32A2C6FF300EB95A8 /* MealDetailsViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF73F7B22A2C6FF300EB95A8 /* MealDetailsViewModelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +50,19 @@
 		AF73F7752A2C640500EB95A8 /* ResturantApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ResturantApp.entitlements; sourceTree = "<group>"; };
 		AF73F7772A2C640500EB95A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF73F77D2A2C640500EB95A8 /* ResturantAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResturantAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF73F7812A2C640500EB95A8 /* ResturantAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantAppTests.swift; sourceTree = "<group>"; };
 		AF73F7872A2C640500EB95A8 /* ResturantAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResturantAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF73F78B2A2C640500EB95A8 /* ResturantAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantAppUITests.swift; sourceTree = "<group>"; };
 		AF73F78D2A2C640500EB95A8 /* ResturantAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF73F79E2A2C668400EB95A8 /* APIURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIURL.swift; sourceTree = "<group>"; };
+		AF73F7A02A2C669700EB95A8 /* MealsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsModel.swift; sourceTree = "<group>"; };
+		AF73F7A22A2C66B200EB95A8 /* RestClientService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestClientService.swift; sourceTree = "<group>"; };
+		AF73F7A42A2C66F600EB95A8 /* MealsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsListViewModel.swift; sourceTree = "<group>"; };
+		AF73F7A62A2C672700EB95A8 /* MealDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailsViewModel.swift; sourceTree = "<group>"; };
+		AF73F7A82A2C674A00EB95A8 /* MealDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailsView.swift; sourceTree = "<group>"; };
+		AF73F7AA2A2C6E1B00EB95A8 /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
+		AF73F7AE2A2C6E6C00EB95A8 /* RestClientServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestClientServiceTest.swift; sourceTree = "<group>"; };
+		AF73F7B02A2C6F7200EB95A8 /* MealListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListViewModelTest.swift; sourceTree = "<group>"; };
+		AF73F7B22A2C6FF300EB95A8 /* MealDetailsViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailsViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +113,11 @@
 		AF73F76E2A2C640300EB95A8 /* ResturantApp */ = {
 			isa = PBXGroup;
 			children = (
+				AF73F79D2A2C646600EB95A8 /* View */,
+				AF73F79C2A2C645E00EB95A8 /* Service */,
+				AF73F79B2A2C645000EB95A8 /* Model */,
+				AF73F79A2A2C644700EB95A8 /* View Model */,
 				AF73F76F2A2C640300EB95A8 /* ResturantAppApp.swift */,
-				AF73F7712A2C640300EB95A8 /* ContentView.swift */,
 				AF73F7732A2C640500EB95A8 /* Assets.xcassets */,
 				AF73F7752A2C640500EB95A8 /* ResturantApp.entitlements */,
 				AF73F7762A2C640500EB95A8 /* Preview Content */,
@@ -115,7 +136,9 @@
 		AF73F7802A2C640500EB95A8 /* ResturantAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				AF73F7812A2C640500EB95A8 /* ResturantAppTests.swift */,
+				AF73F7AD2A2C6E5000EB95A8 /* View Model */,
+				AF73F7AC2A2C6E4000EB95A8 /* Service */,
+				AF73F7AA2A2C6E1B00EB95A8 /* BaseTest.swift */,
 			);
 			path = ResturantAppTests;
 			sourceTree = "<group>";
@@ -127,6 +150,58 @@
 				AF73F78D2A2C640500EB95A8 /* ResturantAppUITestsLaunchTests.swift */,
 			);
 			path = ResturantAppUITests;
+			sourceTree = "<group>";
+		};
+		AF73F79A2A2C644700EB95A8 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF73F7A42A2C66F600EB95A8 /* MealsListViewModel.swift */,
+				AF73F7A62A2C672700EB95A8 /* MealDetailsViewModel.swift */,
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+		AF73F79B2A2C645000EB95A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF73F7A02A2C669700EB95A8 /* MealsModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AF73F79C2A2C645E00EB95A8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AF73F79E2A2C668400EB95A8 /* APIURL.swift */,
+				AF73F7A22A2C66B200EB95A8 /* RestClientService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		AF73F79D2A2C646600EB95A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF73F7A82A2C674A00EB95A8 /* MealDetailsView.swift */,
+				AF73F7712A2C640300EB95A8 /* ContentView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AF73F7AC2A2C6E4000EB95A8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AF73F7AE2A2C6E6C00EB95A8 /* RestClientServiceTest.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		AF73F7AD2A2C6E5000EB95A8 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF73F7B02A2C6F7200EB95A8 /* MealListViewModelTest.swift */,
+				AF73F7B22A2C6FF300EB95A8 /* MealDetailsViewModelTest.swift */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +334,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF73F7A92A2C674A00EB95A8 /* MealDetailsView.swift in Sources */,
+				AF73F7A72A2C672700EB95A8 /* MealDetailsViewModel.swift in Sources */,
 				AF73F7722A2C640300EB95A8 /* ContentView.swift in Sources */,
+				AF73F7A32A2C66B200EB95A8 /* RestClientService.swift in Sources */,
+				AF73F79F2A2C668400EB95A8 /* APIURL.swift in Sources */,
+				AF73F7A12A2C669700EB95A8 /* MealsModel.swift in Sources */,
 				AF73F7702A2C640300EB95A8 /* ResturantAppApp.swift in Sources */,
+				AF73F7A52A2C66F600EB95A8 /* MealsListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +349,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF73F7822A2C640500EB95A8 /* ResturantAppTests.swift in Sources */,
+				AF73F7B12A2C6F7200EB95A8 /* MealListViewModelTest.swift in Sources */,
+				AF73F7AF2A2C6E6C00EB95A8 /* RestClientServiceTest.swift in Sources */,
+				AF73F7B32A2C6FF300EB95A8 /* MealDetailsViewModelTest.swift in Sources */,
+				AF73F7AB2A2C6E1C00EB95A8 /* BaseTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +519,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = play.ResturantApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -471,7 +557,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = play.ResturantApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
